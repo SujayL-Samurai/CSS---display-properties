@@ -1,0 +1,37 @@
+display = property specifies if/how an
+	  element is displayed
+
+block-level = start on a new line, take up the full width available
+		(h1, div, p, form, header, footer)
+
+inline = do not start on a new line, width is limited to what is needed
+	    (span, a img)
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="style.css">
+		
+	<div>div</div>
+	<span>span</span>
+	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur expedita sequi culpa? Fugit quia facere quasi quo iure sed vel, incidunt veniam facilis quaerat laudantium itaque necessitatibus voluptas, nobis nisi!
+	
+</body>
+</html>
+
+style.css
+
+div{
+ background-color: rgb(253, 127, 127);
+ width: 100px;
+ height: 100px;
+ display: block;
+
+}
+span{
+    background-color: rgb(106, 192, 249);
+    width: 100px;
+    height: 100px;
+    display: inline;
+}		 		
